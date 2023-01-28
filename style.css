@@ -1,0 +1,257 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&family=VT323&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Inter:wght@100;200;300;400;500;600;700;800&family=VT323&display=swap');
+
+/* Color Theme Swatches in Hex */
+.WATER-IS-LIFE-1-hex { color: #DCEEF2; }
+.WATER-IS-LIFE-2-hex { color: #735C3F; }
+.WATER-IS-LIFE-3-hex { color: #F2E2CE; }
+.WATER-IS-LIFE-4-hex { color: #D98236; }
+.WATER-IS-LIFE-5-hex { color: #40180F; }
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter', 'Cinzel', sans-serif, serif;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+body{
+    background-image: linear-gradient(to left, #40180f, #000 );
+}
+
+hr{
+    padding: 10px 30px -10px ;
+    width: 300px;
+    margin: 0 auto;
+}
+
+header{
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 55px;
+    margin: 0;
+    padding: 0;
+}
+
+header, a{
+    padding: 10px;
+    margin-left: 5px;
+}
+
+h1{
+    font-family: 'Cinzel', serif;
+    font-size: 4rem;
+    color: #D98236;
+}
+
+p{
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-size: 2em;
+}
+
+.sec1{
+    /*border: #fff solid 1px;*/
+    padding: 110px 100px 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec1 p{
+    text-align: left;
+    margin-top: -20px;
+    margin-bottom: 15px;
+}
+
+.sec1 img{
+    /*border: solid 1px red;*/
+    width: 45%;
+    height: auto;
+    margin-top: -110px;
+    max-width: 100%;
+}
+
+.btn{
+    font-family: 'Arial';
+    font-size: 1.4rem;
+    border: none;
+    height: 50px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #F2E2CE;
+}
+
+.btn:hover{
+    background-color:#afa395 ;
+}
+
+.sec2{
+    /*border: solid 1px red;*/
+    display: grid;
+    margin: 0 auto;
+    padding: 15px 0px 15px;
+}
+
+.sec2 h1{
+    text-align: center;
+    font-size: 4rem;
+}
+
+.sec2 p{
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.container{
+    /*border: solid #fff 1px;*/
+    padding: 1px 0 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container img{
+    width: 60px;
+}
+
+
+.container a{
+    /*border: #fff solid 1px;*/  
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.container h2{
+    font-size: 1.8rem;
+    padding: 10px;
+}
+
+.contato{
+    padding: 15px 0 15px;
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+.ende{
+    padding: 15px 0 15px;
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+.end{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.end img{
+    padding-right: 10px;
+    width: 60px;
+}
+
+.end a{
+    margin: 0 auto;
+    font-size: 2rem;
+}
+
+.anime{
+    opacity: 0;
+    transform: translate3d(-50px, 0px, 0px);
+}
+
+.anime-ini{
+    opacity: 1;
+    transition: .3s all ease;
+    transform: translate3d(0px, 0px, 0px);
+}
+
+
+
+/*@media screen and (max-width: 1320px){
+    .sec1{
+        padding: 50px 5px 10px 50px;    
+    }
+
+    .sec1 h1{
+        font-size: 3.1rem;
+        padding-bottom: 8px;
+    }
+
+    .sec1 p{
+        font-size: 1.5rem;
+    }
+
+    .foto-benson{
+        padding-top: 60px;
+    }
+
+    .btn{
+        width: 130px;
+        height: 35px;
+        font-size: 16px;
+    }
+
+}
+    
+
+@media screen and (min-width: 600px ){
+    .btn{
+        font-size: 10px;
+        width: 100px;
+        height: 30px;
+    }
+    
+    .foto-benson{
+        padding-top: 70px;
+    }
+
+    .sec1 p{
+        font-size: 1rem;
+    }
+
+    p{
+        font-size: 0.5rem;
+        padding: 0px 10px; 
+    }
+
+    h1{
+        font-size: 34px;
+    }
+
+    .sec1 h1{
+        padding-bottom: 10px;
+    }
+
+    .sec1{
+        padding: 50px 10px 10px 60px ;
+    }
+
+    .sec2 h1, .contato, .ende{
+        font-size: 2rem;
+    }
+
+    .sec2 p{
+        font-size: 0.8rem;
+    }
+
+    .container h2{
+        font-size: 0.9rem;
+    }
+
+    .container img{
+        width: 30px;
+    }
+}
+*/
+
+
